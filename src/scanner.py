@@ -221,7 +221,7 @@ def ejecutar_escaneo():
     Función principal que barre la cesta de activos, genera JSON y actualiza CSV.
     """
     # Cesta representativa
-    cesta_activos = ["AAPL", "MSFT", "NVDA", "AMZN", "META", "TSLA", "BTC-USD"]
+    cesta_activos = ["AAPL", "MSFT", "NVDA", "AMZN", "META", "TSLA", "BTC-USD","AMXB.MX"]
     
     print("Inicializando Escáner de Mercado Institucional...")
     resultados = [auditar_activo(ticker) for ticker in cesta_activos]

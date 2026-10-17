@@ -86,15 +86,29 @@
     {
         "Activo": "BTC-USD",
         "Fecha": "2026-10-17",
-        "Cierre_USD": 81155.99,
+        "Cierre_USD": 81204.69,
         "Fase_Mercado_Macro": "Tendencia Alcista",
         "Fuerza_ADX": 24.3,
-        "RSI_14": 45.29,
-        "SAR_Distancia_%": 4.58,
+        "RSI_14": 45.45,
+        "SAR_Distancia_%": 4.52,
         "Diagnostico_MACD": "Transici\u00f3n/Ruido",
         "Mandato_OBV": "VENDER / PERMANECER EN CASH",
         "Mandato_ADX": "APAGAR",
         "Mandato_SAR": "NO COMPRAR",
         "Mandato_Global_Sugerido": "Hold Largo"
+    },
+    {
+        "Activo": "AMXB.MX",
+        "Fecha": "2026-10-16",
+        "Cierre_USD": 21.19,
+        "Fase_Mercado_Macro": "Bajista Dominante",
+        "Fuerza_ADX": 18.83,
+        "RSI_14": 68.61,
+        "SAR_Distancia_%": 8.97,
+        "Diagnostico_MACD": "T. Alcista Fuerte",
+        "Mandato_OBV": "COMPRAR / MANTENER LARGO",
+        "Mandato_ADX": "APAGAR",
+        "Mandato_SAR": "MANTENER POSICI\u00d3N",
+        "Mandato_Global_Sugerido": "Hold Corto"
     }
 ]

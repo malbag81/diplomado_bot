@@ -54,7 +54,7 @@ df_scanner = pd.DataFrame(scanner_data) if scanner_data else pd.DataFrame()
 st.sidebar.title("📊 Terminal Cuantitativa")
 st.sidebar.markdown("---")
 
-activos_disponibles = ["AAPL", "MSFT", "NVDA", "AMZN", "META", "TSLA", "BTC-USD"]
+activos_disponibles = ["AAPL", "MSFT", "NVDA", "AMZN", "META", "TSLA", "BTC-USD","AMXB.MX"]
 if not df_scanner.empty and "Activo" in df_scanner.columns:
     activos_disponibles = df_scanner["Activo"].tolist()
 
